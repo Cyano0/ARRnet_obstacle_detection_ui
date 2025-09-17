@@ -518,7 +518,7 @@ except Exception as e:
     raise
 
 class RadialUI:
-    def __init__(self, node: ObstacleUI, width: int = 420, height: int = 420, report_csv: Optional[str] = None, autosave_sec: float = 0.0, overlay: bool = False):
+    def __init__(self, node: ObstacleUI, width: int = 420, height: int = 500, report_csv: Optional[str] = None, autosave_sec: float = 0.0, overlay: bool = False):
         self.node = node
         self.w = width
         self.h = height
